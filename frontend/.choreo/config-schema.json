@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "anjana": {
+      "type": "object",
+      "properties": {
+        "frontend": {
+          "type": "object",
+          "properties": {
+            "currencyHost": {
+              "type": "string",
+              "description": ""
+            },
+            "catalogHost": {
+              "type": "string",
+              "description": ""
+            },
+            "cartHost": {
+              "type": "string",
+              "description": ""
+            },
+            "shippingHost": {
+              "type": "string",
+              "description": ""
+            },
+            "recommandHost": {
+              "type": "string",
+              "description": ""
+            },
+            "adHost": {
+              "type": "string",
+              "description": ""
+            },
+            "checkoutHost": {
+              "type": "string",
+              "description": ""
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
